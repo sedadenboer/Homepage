@@ -1,0 +1,46 @@
+body {
+  background-color: powderblue;
+  font-family: "monaco", Consolas;
+  font-size: 20px;
+  text-align: center; }
+
+h1 {
+  font-family: monospace;
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center; }
+
+h2 {
+  font-family: monospace;
+  font-size: 22px;
+  font-weight: bold; }
+
+#introduction-text {
+  color: powderblue;
+  background-color: #7f8769;
+  text-align: center; }
+
+a:visited {
+  color: #8c5d4e; }
+a:active {
+  color: #fa2904; }
+a:hover {
+  color: #f83e9b; }
+
+.informative, .warning {
+  font-family: "monaco", Consolas;
+  color: #7f8769;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid #7f8769;
+  padding: 20px;
+  margin: 20px; }
+
+.informative {
+  background-color: #dad9d9; }
+
+.warning {
+  background-color: #fcc764; }
+
+/*# sourceMappingURL=styles2.css.map */
