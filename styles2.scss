@@ -1,0 +1,68 @@
+$main-color: powderblue;
+$accent-color: rgb(127, 135, 105);
+$main-font: 'monaco', Consolas;
+$header-font: monospace;
+$standard-alignment: center;
+
+// Text style
+body {
+    background-color: $main-color;
+    font-family: $main-font;
+    font-size: 20px;
+    text-align: $standard-alignment;
+}
+
+h1 {
+    font-family: $header-font;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: $standard-alignment;
+}
+
+h2 {
+    font-family: $header-font;
+    font-size: 22px;
+    font-weight: bold;
+    
+}
+
+#introduction-text {
+    color: $main-color;
+    background-color: $accent-color;
+    text-align: $standard-alignment;
+  }
+
+// Hyperlink properties
+a {
+    &:visited {
+        color: rgb(140, 93, 78);
+    }
+    &:active {
+        color: rgb(250, 41, 4);
+    }
+    &:hover {
+        color: rgb(248, 62, 155);
+    }
+}
+
+// Message properties
+%message {
+    font-family: $main-font;
+    color: $accent-color;
+    text-align: $standard-alignment;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid $accent-color;
+    padding: 20px;
+    margin: 20px;
+}
+
+.informative {
+    @extend %message;
+    background-color: rgb(218, 217, 217);
+}
+
+.warning {
+    @extend %message;
+    background-color: rgb(252, 199, 100);
+}
