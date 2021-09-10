@@ -10,7 +10,7 @@ My website is a personal 'allegaartje' of things I'm interested in. Since it's m
 * art.html displays some drawings I made
 * memes.html displays some memes
 
-## GitHub Pages (live version)
+## GitHub Pages 
 https://minprog-platforms.github.io/homepage-sedadenboer/
 
 ## Authors
