@@ -11,7 +11,7 @@ My website is a personal 'allegaartje' of things I'm interested in. Since it's m
 * memes.html displays some memes
 
 ## GitHub Pages (live version)
-[https://minprog-platforms.github.io/homepage-sedadenboer/](https://github.com/)
+[https://minprog-platforms.github.io/homepage-sedadenboer/]
 
 ## Authors
 [@sedadenboer](https://www.github.com/sedadenboer)
