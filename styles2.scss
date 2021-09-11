@@ -4,7 +4,7 @@ $main-font: 'monaco', Consolas;
 $header-font: monospace;
 $standard-alignment: center;
 
-// Text style
+// Main text style
 body {
     background-color: $main-color;
     font-family: $main-font;
@@ -26,6 +26,7 @@ h2 {
     
 }
 
+// Create #id for introduction text in 'About Me' page
 #introduction-text {
     color: $main-color;
     background-color: $accent-color;

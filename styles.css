@@ -1,5 +1,6 @@
-/*Change font size if the screen is smaller than 600px. Viewport in html files retrieved from <!-- https://www.w3schools.com/css/css_rwd_viewport.asp -->*/
-@media (max-width: 600px) {
+/*If the screen is smaller than 800px*/
+@media (max-width: 800px) {
+    /*Text becomes smaller*/
     body {
         font-size: 15px;
     }
@@ -10,7 +11,34 @@
 
     h2 {
         font-size: 17px;
-        font-weight: bold;
+    }
+
+    /*Stack columns to two image containers*/
+    .column {
+        width: 50% !important
+
+    }
+}
+
+/*If the screen is smaller than 600px*/
+@media (max-width: 600px) {
+    /* Text becomes smaller*/
+    body {
+        font-size: 11px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 13px;
+
+    }
+
+    /*Stack columns to one image container*/
+    .column {
+        width: 100% !important
     }
 }
 
@@ -79,17 +107,9 @@ body, html {
 }
 
 /*Container properties below are from: https://www.w3schools.com/howto/howto_css_images_side_by_side.asp*/
-/*Three image containers (use 25% for four, and 50% for two, etc)*/
+/*Three image containers*/
 .column {
-float: left;
-width: 33.33%;
-padding: 5px;
-border: none
+    float: left;
+    width: 33.33%;
+    padding: 5px;
 }
-
-/*Clear floats after image containers*/
-.row::after {
-content: "";
-clear: both;
-display: table;
-} 
