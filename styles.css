@@ -1,15 +1,15 @@
-/*Change font size if the screen is smaller than 800px*/
-@media (max-width: 800px) {
+/*Change font size if the screen is smaller than 600px. Viewport in html files retrieved from <!-- https://www.w3schools.com/css/css_rwd_viewport.asp -->*/
+@media (max-width: 600px) {
     body {
-        font-size: 11px;
+        font-size: 15px;
     }
 
     h1 {
-        font-size: 25px;
+        font-size: 35px;
     }
 
     h2 {
-        font-size: 13px;
+        font-size: 17px;
         font-weight: bold;
     }
 }
